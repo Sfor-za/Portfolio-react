@@ -1,0 +1,26 @@
+.nav-link:hover{
+    color: greenyellow;
+    }
+.nav-link{
+    color:rgb(114, 127, 131)
+}
+.navbar-brand{
+    margin-top: 10px;
+}
+.nav-list{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-items{
+    margin:25px;
+}
+.nav-items-active{
+    margin:25px 20px;
+}
+.active-link{
+    color:beige;
+    font-size: 20px;
+    margin-top:6px;
+}
