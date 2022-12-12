@@ -1,6 +1,6 @@
 .nav-link:hover{
-    color: greenyellow;
-    }
+    color:beige;
+}
 .nav-link{
     color:rgb(114, 127, 131)
 }
@@ -20,7 +20,7 @@
     margin:25px 20px;
 }
 .active{
-    color:beige;
+    color: greenyellow;
     font-size: 20px;
     margin-top:6px;
 }
