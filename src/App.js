@@ -4,11 +4,17 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" >
       <Navbar />
-      <div className="container">
+      <div className="container" id="Projects-section">
         <Cardgrid />
-        </div>
+      </div>
+      <div className="container">
+
+      </div>
+      <div className="container">
+
+      </div>
     </div>
   );
 }

@@ -19,8 +19,16 @@
 .nav-items-active{
     margin:25px 20px;
 }
-.active-link{
+.active{
     color:beige;
     font-size: 20px;
     margin-top:6px;
 }
+.nav-bar{
+    background-color: black;
+    z-index:99999;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+       
