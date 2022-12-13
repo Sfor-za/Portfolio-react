@@ -1,0 +1,26 @@
+.greeting{
+    font-weight: 500;
+    color:white;
+    /* font-size: 100px; */
+    text-align: left;
+}
+.name{
+    color:white;
+    font-size: 100px;
+    /* text-align: center; */
+}
+.about-section{
+    color:white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.tools{
+    color:white;
+    font-size: 40px;
+}
+.css-image{
+    height:100px;
+}
+.js-image{
+    height:125px;
+}
