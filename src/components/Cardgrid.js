@@ -3,12 +3,12 @@ import './Cardgrid.css'
 
 export default function Cardgrid() {
   return (
-    <div className="container">
+    <div className="container project-grid">
       <div className="card-system">
         <div className="row row-cols-1 row-cols-md-2 g-4 row-spacing">
           <div className="col">
             <div className="card project-card h-100 my-10">
-              <img src={require('./Max-planck.png')} className="card-img-top" alt="..." />
+              <img src={require('./images/Max-planck.png')} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Tribute Page</h5>
                 <p className="card-text mb-2">This was a project I was looking forward too. Being a Physics
@@ -23,7 +23,7 @@ export default function Cardgrid() {
           </div>
           <div className="col">
             <div className="card project-card h-100 my-10">
-              <img src={require('./product-page-imitation.png')} className="card-img-top" alt="..." />
+              <img src={require('./images/product-page-imitation.png')} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Product Landing Page</h5>
                 <p className="card-text">While learning Web Dev, I started getting lured into the world of
@@ -40,7 +40,7 @@ export default function Cardgrid() {
         <div className="row row-cols-1 row-cols-md-2 g-4 row-spacing">
           <div className="col">
             <div className="card project-card h-100 my-10">
-              <img src={require('./Max-planck.png')} className="card-img-top" alt="..." />
+              <img src={require('./images/Max-planck.png')} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Tribute Page</h5>
                 <p className="card-text">This was a project I was looking forward too. Being a Physics
@@ -53,7 +53,7 @@ export default function Cardgrid() {
           </div>
           <div className="col">
             <div className="card project-card h-100 my-10">
-              <img src={require('./product-page-imitation.png')} className="card-img-top" alt="..." />
+              <img src={require('./images/product-page-imitation.png')} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Product Landing Page</h5>
                 <p className="card-text">While learning Web Dev, I started getting lured into the world of
@@ -68,7 +68,7 @@ export default function Cardgrid() {
         <div className="row row-cols-1 row-cols-md-2 g-4 row-spacing">
           <div className="col">
             <div className="card project-card h-100 my-10">
-              <img src={require('./Max-planck.png')} className="card-img-top" alt="..." />
+              <img src={require('./images/Max-planck.png')} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Tribute Page</h5>
                 <p className="card-text">This was a project I was looking forward too. Being a Physics
@@ -81,7 +81,7 @@ export default function Cardgrid() {
           </div>
           <div className="col">
             <div className="card project-card h-100 my-10">
-              <img src={require('./product-page-imitation.png')} className="card-img-top" alt="..." />
+              <img src={require('./images/product-page-imitation.png')} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Product Landing Page</h5>
                 <p className="card-text">While learning Web Dev, I started getting lured into the world of
