@@ -20,16 +20,16 @@ export default function about() {
       </div>
       <div className="tools">
         The things I use :
-        <div class="container text-center ">
-          <div class="row row-spacing justify-content-md-center">
-            <div class="col-md-3"><img className="css-image"src={require('./images/html-logo.png')} alt="html logo"/><div className="description">HTML</div></div>
-            <div class="col-md-3"><img className="css-image" src={require('./images/css-logo.png')} alt="css logo"/><div className="description">CSS</div></div>
-            <div class="col-md-3 js-image-container"><img className="js-image mb-n4"src={require('./images/jsc-logo-2.webp')} alt="js logo"/><div className="js-description">JavaScript</div></div>
+        <div className="container text-center">
+          <div className="row row-spacing justify-content-md-center logo">
+            <div className="col-md-3"><img className="css-image"src={require('./images/html-logo.png')} alt="html logo"/><div className="description">HTML</div></div>
+            <div className="col-md-3"><img className="css-image" src={require('./images/css-logo.png')} alt="css logo"/><div className="description">CSS</div></div>
+            <div className="col-md-3 "><img className="css-image" src={require('./images/jsc-logo.png')} alt="js logo"/><div className="description">JavaScript</div></div>
           </div>
-          <div class="row row-spacing justify-content-md-center">
-            <div class="col-md-3"><img className="css-image"src={require('./images/react-logo.webp')} alt="html logo"/><div className="description">React.js</div></div>
-            <div class="col-md-3"><img className="css-image" src={require('./images/bootstrap-logo.png')} alt="css logo"/><div className="description">Bootstrap</div></div>
-            <div class="col-md-3"><img className="css-image my-0"src={require('./images/vercel-logo.png')} alt="js logo"/><div className="description">Vercel</div></div>
+          <div className="row row-spacing justify-content-md-center logo">
+            <div className="col-md-3"><img className="css-image"src={require('./images/react-logo.webp')} alt="html logo"/><div className="description">React.js</div></div>
+            <div className="col-md-3"><img className="css-image" src={require('./images/bootstrap-logo.png')} alt="css logo"/><div className="description">Bootstrap</div></div>
+            <div className="col-md-3"><img className="css-image my-0"src={require('./images/vercel-logo.png')} alt="js logo"/><div className="description">Vercel</div></div>
           </div>
         </div>
       </div>

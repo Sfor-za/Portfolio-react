@@ -1,18 +1,11 @@
 .contact-section{
     color:white;
     font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-}
-input{
-    color:white;
-}
-
-input::placeholder{
-    color: greenyellow;
-    opacity: 1;
+    align-items: flex-end ;
+    
 }
 .social-link{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }

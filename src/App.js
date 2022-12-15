@@ -5,6 +5,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 
 
+
+
 function App() {
   return (
     <div className="app">
@@ -15,9 +17,8 @@ function App() {
       <div className="container" id="Projects">
         <Cardgrid />
       </div>
-      
       <div className="container" id="Contact">
-        <Contact/>
+        <Contact />
       </div>
       
     </div>
