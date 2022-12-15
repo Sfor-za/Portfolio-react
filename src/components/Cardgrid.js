@@ -4,7 +4,7 @@ import './Cardgrid.css'
 export default function Cardgrid() {
   return (
     <div className="container project-grid">
-      <div className="project-details">My Latest Projects</div>
+      <div className="greeting">My Latest Projects :</div>
       <div className="card-system">
         <div className="row row-cols-xs-2 row-cols-sm-2 row-cols-md-2 row-spacing">
           <div className="col">
