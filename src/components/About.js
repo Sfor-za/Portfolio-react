@@ -19,7 +19,7 @@ export default function about() {
 
       </div>
       <div className="tools">
-        The things I use :
+         <div className="greeting">The things I use :</div> 
         <div className="container text-center ">
           <div className="row row-cols-auto  justify-content-center logo">
             <div className="col-4"><img className="css-image"src={require('./images/html-logo.png')} alt="html logo"/><div className="description">HTML</div></div>

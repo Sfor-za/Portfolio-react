@@ -17,13 +17,15 @@
 .tools{
     color:white;
     margin-top: 100px;
+    margin-left:10px;
+    margin-right:10px;
     font-size: 4.5vh;
 }
 .css-image{
     height:10vh;
 }
 .description{
-    font-size: 3.5vh;
+    font-size: 2.75vh;
 }
 .logo{
     margin-top: 80px;

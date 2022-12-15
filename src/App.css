@@ -1,3 +1,20 @@
 body{
   background-color: black;
 }
+
+@media (max-width:576px) {
+  .greeting{
+    font-size:2vh;
+    font-weight: 500;
+  }
+  .name{
+    color:yellow;
+    font-size: 7vh !important;
+  }
+  .about-section{
+    color:white;
+    font-size: 2vh !important;
+    margin-top: 20px;
+}
+  
+}

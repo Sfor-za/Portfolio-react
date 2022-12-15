@@ -4,7 +4,7 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="container contact-section mx-4">
-      <div className="text-center">
+      <div className="text-center greeting">
       Socials :
       </div>
       
