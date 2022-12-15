@@ -3,12 +3,15 @@
 }
 .project-card{
     background-color: rgb(20, 20, 20);
+    margin-top: 20px;
 }
 .card-text{
     color:rgb(185, 185, 185);
+    font-size:2vh;
 }
 .card-title{
     color:white;
+    font-size:2.5vh;
 }
 .card-system{
     margin-top:90px;

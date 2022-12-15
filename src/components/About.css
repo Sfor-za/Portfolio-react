@@ -1,29 +1,29 @@
 .greeting{
     font-weight: 500;
     color:white;
-    /* font-size: 100px; */
+    font-size:2.5vh;
     text-align: left;
 }
 .name{
-    color:white;
-    font-size: 100px;
-    /* text-align: center; */
+    color:yellow;
+    font-size: 11vh;
+    
 }
 .about-section{
     color:white;
-    font-size: 25px;
+    font-size: 3vh;
     margin-top: 20px;
 }
 .tools{
     color:white;
     margin-top: 100px;
-    font-size: 40px;
+    font-size: 4.5vh;
 }
 .css-image{
-    height:100px;
+    height:10vh;
 }
 .description{
-    font-size: 25px;
+    font-size: 3.5vh;
 }
 .logo{
     margin-top: 80px;

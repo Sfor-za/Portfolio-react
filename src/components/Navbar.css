@@ -16,19 +16,17 @@
 .nav-items{
     margin:25px;
 }
-.nav-items-active{
-    margin:25px 20px;
-}
 .active{
     color: greenyellow;
     font-size: 20px;
     margin-top:6px;
 }
 .nav-bar{
+    justify-self: center;
     background-color: black;
     z-index:99999;
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 100vw;
 }
        

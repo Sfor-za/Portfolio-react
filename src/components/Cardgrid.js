@@ -5,7 +5,7 @@ export default function Cardgrid() {
   return (
     <div className="container project-grid">
       <div className="card-system">
-        <div className="row row-cols-1 row-cols-md-2 g-4 row-spacing">
+        <div className="row row-cols-xs-2 row-cols-sm-2 row-cols-md-2 row-spacing">
           <div className="col">
             <div className="card project-card h-100 my-10">
               <img src={require('./images/Max-planck.png')} className="card-img-top" alt="..." />
@@ -37,7 +37,7 @@ export default function Cardgrid() {
             </div>
           </div>
         </div>
-        <div className="row row-cols-1 row-cols-md-2 g-4 row-spacing">
+        <div className="row row-cols-xs-2 row-cols-sm-2 row-cols-md-2 row-spacing">
           <div className="col">
             <div className="card project-card h-100 my-10">
               <img src={require('./images/Max-planck.png')} className="card-img-top" alt="tribute page" />
@@ -65,7 +65,7 @@ export default function Cardgrid() {
             </div>
           </div>
         </div>
-        <div className="row row-cols-1 row-cols-md-2 g-4 row-spacing">
+        <div className="row row-cols-xs-2 row-cols-sm-2 row-cols-md-2 row-spacing">
           <div className="col">
             <div className="card project-card h-100 my-10">
               <img src={require('./images/Max-planck.png')} className="card-img-top" alt="..." />

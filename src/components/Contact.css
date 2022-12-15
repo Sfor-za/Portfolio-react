@@ -1,11 +1,16 @@
 .contact-section{
     color:white;
     font-size: 30px;
-    align-items: flex-end ;
+    margin-top: 90px;
+    /* align-items: flex-end ; */
     
 }
 .social-link{
+    margin-top: 50px;
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+.social-link:hover{
+    color:greenyellow;
 }
