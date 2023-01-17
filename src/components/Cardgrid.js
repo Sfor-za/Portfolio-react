@@ -9,15 +9,13 @@ export default function Cardgrid() {
         <div className="row row-cols-xs-2 row-cols-sm-2 row-cols-md-2 row-spacing">
           <div className="col">
             <div className="card project-card h-100 my-10">
-              <img src={require('./images/Max-planck.png')} className="card-img-top" alt="..." />
+              <img src={require('./images/weather-app-ss.png')} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Tribute Page</h5>
-                <p className="card-text mb-2">This was a project I was looking forward too. Being a Physics
-                  Enthusiast and Starting my Journey in Web Dev, it was only natural
-                  to end up with this.</p>
-                <a href="https://github.com/Sfor-za/FCC-tribute-page" target="_blank"
+                <h5 className="card-title">Weather App</h5>
+                <p className="card-text mb-2">First useful project. Used APIs and React Hooks and Learned a lot too.</p>
+                <a href="https://github.com/Sfor-za/new-weather-app" target="_blank"
                   className="btn btn-primary project-link mt-auto" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://fcc-tribute-page-alpha.vercel.app/" target="_blank"
+                  <a href="https://weatherapp-sforza.vercel.app/" target="_blank"
                   className="btn btn-primary project-link mx-5" rel="noopener noreferrer"><i className="fa-solid fa-link"></i></a>
               </div>
             </div>
