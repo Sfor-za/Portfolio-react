@@ -10,7 +10,7 @@ export default function about() {
       <div className="name about-content mx-n5">I'm Adi</div>
       <div className="about-section ">
         I'm a self-taught front-end Dev, currently expanding my knowledge in
-        the front-end world and soon in Back-end too.
+        the front-end world.
         <br />
         Physics Enthusiast and Grad studied at Loyola College, Chennai.
         <br />
