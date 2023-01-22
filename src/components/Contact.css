@@ -1,15 +1,20 @@
+.greeting{
+    font-size: 50px;
+
+}
 .contact-section{
     color:white;
-    font-size: 30px;
-    margin-top: 90px;
-    /* align-items: flex-end ; */
+
+    margin-top: 400px;
+    margin-bottom: 400px;
+
     
 }
 .social-link{
-    margin-top: 50px;
+    margin-top: 200px;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 35px;
 }
 .social-link:hover{
     color:greenyellow;

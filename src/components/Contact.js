@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.css";
+import resume from "./Resume.pdf"
+
 
 export default function Contact() {
   return (
@@ -37,10 +39,10 @@ export default function Contact() {
           <div className="col-md-2">
             <div className="description">
               <a
-                href="https://github.com/Sfor-za"
+                href={resume}
+                rel="noopener noreferrer"
                 target="_blank"
                 className="social-link mt-auto ml-n4"
-                rel="noopener noreferrer"
                 >
                 <i className="fa-solid fa-file"></i>Resume
               </a>
