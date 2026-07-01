@@ -10,13 +10,13 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 
 const BLOB_DRIFT = [
-  { scrollSpeed: 0.16, ampX: 50, ampY: 35, freqX: 0.00043, freqY: 0.00059, phase: 0.3 },
-  { scrollSpeed: 0.26, ampX: 40, ampY: 55, freqX: 0.00063, freqY: 0.00038, phase: 2.1 },
-  { scrollSpeed: 0.38, ampX: 60, ampY: 40, freqX: 0.00034, freqY: 0.00069, phase: 4.5 },
-  { scrollSpeed: 0.21, ampX: 35, ampY: 50, freqX: 0.00057, freqY: 0.00045, phase: 1.4 },
-  { scrollSpeed: 0.3, ampX: 55, ampY: 45, freqX: 0.00049, freqY: 0.00063, phase: 5.6 },
-  { scrollSpeed: 0.23, ampX: 45, ampY: 60, freqX: 0.00069, freqY: 0.00039, phase: 3.2 },
-  { scrollSpeed: 0.25, ampX: 48, ampY: 42, freqX: 0.00056, freqY: 0.00053, phase: 6.2 },
+  { scrollSpeed: 0.16, ampX: 50, ampY: 35, freqX: 0.00052, freqY: 0.00071, phase: 0.3 },
+  { scrollSpeed: 0.26, ampX: 40, ampY: 55, freqX: 0.00076, freqY: 0.00046, phase: 2.1 },
+  { scrollSpeed: 0.38, ampX: 60, ampY: 40, freqX: 0.00041, freqY: 0.00083, phase: 4.5 },
+  { scrollSpeed: 0.21, ampX: 35, ampY: 50, freqX: 0.00068, freqY: 0.00054, phase: 1.4 },
+  { scrollSpeed: 0.3, ampX: 55, ampY: 45, freqX: 0.00059, freqY: 0.00076, phase: 5.6 },
+  { scrollSpeed: 0.23, ampX: 45, ampY: 60, freqX: 0.00083, freqY: 0.00047, phase: 3.2 },
+  { scrollSpeed: 0.25, ampX: 48, ampY: 42, freqX: 0.00067, freqY: 0.00064, phase: 6.2 },
 ];
 
 function App() {
