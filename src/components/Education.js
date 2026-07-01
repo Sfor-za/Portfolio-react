@@ -22,6 +22,19 @@ const certificates = [
   { name: 'Foundations of AI and Machine Learning', org: 'Microsoft · Coursera', date: 'Jul 2025' },
 ];
 
+const achievements = [
+  {
+    name: 'Special Team Award',
+    org: 'tsworks · May 2026',
+    desc: 'Received for successfully creating and deploying an internal application to Shopify Marketplace.',
+  },
+  {
+    name: 'Best Paper Presentation — Finance Category',
+    org: 'Asian Business School International Conference · Nov 2024',
+    desc: 'Presented on the impact of sentiment analysis on stock price prediction.',
+  },
+];
+
 export default function Education() {
   return (
     <section className="section" id="Education">
@@ -56,14 +69,18 @@ export default function Education() {
           ))}
         </div>
 
-        <h3 className="subsection-title">Achievement</h3>
-        <div className="achievement-card">
-          <i className="fa-solid fa-trophy achievement-icon"></i>
-          <div>
-            <p className="achievement-name">Best Paper Presentation — Finance Category</p>
-            <p className="achievement-org">Asian Business School International Conference · Nov 2024</p>
-            <p className="achievement-desc">Presented on the impact of sentiment analysis on stock price prediction.</p>
-          </div>
+        <h3 className="subsection-title">Achievements</h3>
+        <div className="achievements-list">
+          {achievements.map((ach, i) => (
+            <div className="achievement-card" key={i}>
+              <i className="fa-solid fa-trophy achievement-icon"></i>
+              <div>
+                <p className="achievement-name">{ach.name}</p>
+                <p className="achievement-org">{ach.org}</p>
+                <p className="achievement-desc">{ach.desc}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

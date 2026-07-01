@@ -24,11 +24,6 @@
 
 body {
   background-color: var(--bg);
-  background-image:
-    radial-gradient(640px circle at 85% 8%, rgba(193, 82, 31, 0.16), transparent 60%),
-    radial-gradient(520px circle at 6% 42%, rgba(95, 122, 95, 0.14), transparent 60%),
-    radial-gradient(560px circle at 78% 88%, rgba(184, 134, 11, 0.13), transparent 60%);
-  background-attachment: fixed;
   color: var(--text);
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
@@ -37,6 +32,78 @@ body {
 
 .app {
   counter-reset: section;
+}
+
+.bg-blobs {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bg-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  will-change: transform;
+  transform: translate(-50%, -50%);
+}
+
+.bg-blob-1 {
+  top: 8%;
+  left: 85%;
+  width: 640px;
+  height: 640px;
+  background: radial-gradient(circle, rgba(193, 82, 31, 0.28) 0%, transparent 70%);
+}
+
+.bg-blob-2 {
+  top: 42%;
+  left: 6%;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, rgba(95, 122, 95, 0.26) 0%, transparent 70%);
+}
+
+.bg-blob-3 {
+  top: 88%;
+  left: 78%;
+  width: 560px;
+  height: 560px;
+  background: radial-gradient(circle, rgba(184, 134, 11, 0.25) 0%, transparent 70%);
+}
+
+.bg-blob-4 {
+  top: 65%;
+  left: 15%;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, rgba(138, 74, 47, 0.26) 0%, transparent 70%);
+}
+
+.bg-blob-5 {
+  top: 20%;
+  left: 45%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(95, 122, 95, 0.24) 0%, transparent 70%);
+}
+
+.bg-blob-6 {
+  top: 72%;
+  left: 50%;
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, rgba(88, 101, 214, 0.25) 0%, transparent 70%);
+}
+
+.bg-blob-7 {
+  top: 35%;
+  left: 80%;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(199, 60, 120, 0.22) 0%, transparent 70%);
 }
 
 .section {
