@@ -1,20 +1,85 @@
-body{
-  background-color: black;
+:root {
+  --bg: #f3ecdd;
+  --surface: #fffcf6;
+  --surface-2: #ece1c8;
+  --border: rgba(33, 24, 14, 0.12);
+  --accent: #c1521f;
+  --accent-2: #8a4a2f;
+  --text: #211b14;
+  --text-muted: #6b5f4f;
+  --text-dim: #a3957d;
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --glass-bg: rgba(255, 252, 246, 0.5);
+  --glass-bg-strong: rgba(255, 252, 246, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-blur: blur(20px) saturate(160%);
 }
 
-@media (max-width:576px) {
-  .greeting{
-    font-size:2vh;
-    font-weight: 500;
-  }
-  .name{
-    color:yellow;
-    font-size: 7vh !important;
-  }
-  .about-section{
-    color:white;
-    font-size: 2vh !important;
-    margin-top: 20px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-  
+
+body {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(640px circle at 85% 8%, rgba(193, 82, 31, 0.16), transparent 60%),
+    radial-gradient(520px circle at 6% 42%, rgba(95, 122, 95, 0.14), transparent 60%),
+    radial-gradient(560px circle at 78% 88%, rgba(184, 134, 11, 0.13), transparent 60%);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+.app {
+  counter-reset: section;
+}
+
+.section {
+  padding: 100px 5%;
+  counter-increment: section;
+}
+
+.section-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-family: var(--serif);
+  font-size: clamp(1.85rem, 3.5vw, 2.4rem);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2.75rem;
+}
+
+.section-title::before {
+  content: "— " counter(section, decimal-leading-zero);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.section-title::after {
+  content: '';
+  width: 44px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 80px 5%;
+  }
 }
